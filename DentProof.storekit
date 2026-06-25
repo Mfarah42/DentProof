@@ -1,0 +1,69 @@
+{
+  "identifier" : "DENTPROOF_STOREKIT_CONFIG",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "DENTPROOF_PRO_GROUP",
+      "localizations" : [],
+      "name" : "DentProof Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "DENTPROOF_PRO_MONTHLY",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Remove the watermark, add your logo, unlimited photos, and more.",
+              "displayName" : "DentProof Pro (Monthly)",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.dentproof.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "DentProof Pro Monthly",
+          "subscriptionGroupID" : "DENTPROOF_PRO_GROUP",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "29.00",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "DENTPROOF_PRO_YEARLY",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Remove the watermark, add your logo, unlimited photos, and more.",
+              "displayName" : "DentProof Pro (Yearly)",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.dentproof.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "DentProof Pro Yearly",
+          "subscriptionGroupID" : "DENTPROOF_PRO_GROUP",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
